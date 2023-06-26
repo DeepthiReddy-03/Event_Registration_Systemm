@@ -1,0 +1,139 @@
+body{
+    background-image: url('abc.avif');
+    background-repeat: no-repeat;
+    background-size:1515px 1300px;
+
+}
+
+
+
+.header{
+    background-color: transparent;
+    padding: 15px 2px 4px 25px;
+    text-align: center;
+    color:rgb(234, 178, 37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    }
+   
+     ul{
+        color:antiquewhite;
+        line-height: 126px;
+        line-break: auto;
+        list-style:none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        overflow: hidden;
+    }
+    li{
+        float: left;
+    }
+    li a{
+        color:antiquewhite;
+        text-decoration:none;
+        display: block;
+        font-size: 27px;
+        padding: 124px 154px 118px 40px;
+        margin: 0px 43px 2px 3px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+     li a:hover:not(.active){
+        background-color:white;
+        color:black;
+    }
+    .active{
+        background-color:whitesmoke;
+        color:black;
+    }
+    .form{
+        height: 700px;
+        font-size: 25px;
+        padding: 17px 121px;
+        margin: 38px 444px;
+        align-self: center;
+        border-radius: 43px;
+        -webkit-border-radius: 43px;
+        -moz-border-radius: 43px;
+        -ms-border-radius: 43px;
+        -o-border-radius: 43px;
+}
+    .form #add{
+        width: 370px;
+        border-radius: 10px;
+        height: 30px;
+        font-size: 15px;
+        background-color:cornsilk;
+    
+    }
+    .form #ad{
+        text-align: center;
+        
+    }
+    .form label{
+        color:white;
+    }
+    .form legend{
+        color:cyan;
+    }
+     .form a{
+        color:white;
+    }
+    ::placeholder {
+        color: black;
+        opacity: 1; /* Firefox */
+      }
+      .form #but{
+        background-color: black;
+        color:antiquewhite;
+        padding: 7px 27px 6px 30px;
+        margin: 2px 47px 0px 0px;
+        font-size:20px;
+        border-radius:15px ;
+        -webkit-border-radius:15px ;
+        -moz-border-radius:15px ;
+        -ms-border-radius:15px ;
+        -o-border-radius:15px ;
+}
+      .form #As{
+        accent-color: black;
+      }
+      table{
+        border:3px solid black;
+        width:90%;
+        border-collapse: collapse;
+        background-color:white ;
+        border-spacing: 1px;
+        color:black;
+        padding:0px 0px 0px 0px;
+        margin:0px 0px 0px 76px;
+      }
+      table td,th{
+        height:28px;
+        padding:0px 0px 0px 0px;
+        border:2px solid black;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #dac6d0;
+    
+}
+      caption{
+        color:cyan;
+        font-size:25px;
+        margin: 20px 59px 15px 15px;
+
+      }
+      .info {
+        padding:0px 0px 0px 0px;
+        margin:0px 0px 0px 556px;
+        height:50px;
+        width:505px;
+        font-size:23px;
+        color:aliceblue;
+        font-family: lucida handwriting;
+
+
+      }
